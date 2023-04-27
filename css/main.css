@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Ysabeau', sans-serif; 
+    font-weight: 400;
+}
+
+
+
+.flux {
+    max-width: 100%;
+    margin: 25px ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.flux figure {
+    width: 30%;
+}
+.flux img {
+    padding: 25px;
+	opacity: 1;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.flux img:hover {
+    opacity: 0.5;
+}
+
+.text {     
+    display: flex;
+    align-items: center;
+    flex-direction: column  ;
+}
+
+.text h1 {
+    font-size: large;
+    margin: 30px;
+}
+.text iframe {
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.btn-primary {
+    background-color: #747474;
+    border: #747474;
+}
+
+.btn-primary:hover {
+    background-color:#ababab;
+}
+
+.btn-secondary {
+    color: #747474;
+    border: #dbdbdb 0.5pt solid;
+    background-color: #FFFFFF;
+}
+
+.btn-secondary:hover {
+    border: #dbdbdb;
+    background-color:#dbdbdb;
+}
+.ratio {
+    margin: 10px 0;
+}
+.ratio img {
+    object-fit: cover;
+    border: #ebebeb 0.5px solid;
+    
+}
+
+
+
+@media (max-width: 767px) {
+    .flux {
+        flex-direction: column;
+        justify-content: flex-start ;
+        align-items: center;
+    }
+
+    .flux figure {
+        width: 100vw;
+        margin: 0;
+    }
+    
+}
+
+

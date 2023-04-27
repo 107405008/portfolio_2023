@@ -1,0 +1,36 @@
+header {
+    width: 100vw;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+header .logo {
+    padding: 36px 16px;
+}
+header .nav {
+    border-bottom:0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap
+}
+header .nav-tabs .nav-link  {
+    border-radius: 0%;
+    border: 0;
+    padding: 15px 30px;
+    color: #747474;
+}
+header .nav-tabs .nav-link:hover {
+    color: #747474;
+    opacity: 0.5;  
+}
+
+header .bar {
+    width: 0.5px;
+    height: 16px;
+    background-color: #747474;
+}
+
+
